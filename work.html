@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>언론이 바라보는 세상</title>
+<style>
+
+body{
+  background-color: #131313;
+
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #131313;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+
+#title{
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 6px 8px 6px 16px;
+  
+}
+
+#category{
+
+ margin-left: 55px;
+}
+
+.sidenav p {
+  margin-bottom: 10px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 40px;
+   font-family:'Pretendard-Regular';
+  color: white;
+  display: block;
+}
+
+
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 20px 10px;
+  font-family: 'Pretendard-Regular';
+  color: white;
+}
+
+#chosun{
+  margin-left: 120px;
+}
+
+#image{
+  margin-left: 110px;
+  vertical-align: middle;
+}
+
+
+#btnwhole{
+border: 1px solid white;
+border-radius: 5px;
+margin-left: 35px;
+font-size: 18px;
+background-color: transparent;
+font-family:'Pretendard-Regular';
+ color: white;
+ padding: 7px;
+}
+
+#btnwhole: hover{
+  background-color: white;
+color: black;
+}
+
+#btnsub{
+border: 1px solid white;
+margin-left: 35px;
+border-radius: 5px;
+background-color: transparent;
+font-family:'Pretendard-Regular';
+ color: white;
+  padding: 5px;
+}
+
+#btn_group{
+
+font-family:'Pretendard-Regular';
+
+/*text-align: center;*/
+}
+
+a { 
+  text-decoration:none;
+  color: white;
+}
+
+a:link {
+  color : white;
+}
+
+a:visited {
+  color : white;
+}
+a:hover { 
+  color : white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+#circle-red{
+  background-color: #E81D29;
+  opacity: 70%;
+  width:10px;
+  height:10px;
+  border-radius: 5px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="sidenav">
+  <div id ="title">
+  <img src="title/title.png" width="80%" alt="My Image" >
+</div>
+  <p>
+<button id = btnwhole><a href ="https://worldofmedia.github.io/media/world.html" >  전체보기  </a></button>
+
+<div id="category">
+<a href ="https://worldofmedia.github.io/nk/nk.html" ><img src="title/nk.png" width="45%" alt="My Image" ></a><br>
+<a href ="https://worldofmedia.github.io/high/high.html" > <img src="title/high.png" width="45%" alt="My Image" > </a><br>
+<a href ="https://worldofmedia.github.io/real/real.html" > <img src="title/real.png" width="47%" alt="My Image" > </a><br>
+<a href ="https://worldofmedia.github.io/eco/eco.html" > <img src="title/eco.png" width="47%" alt="My Image" > </a><br>
+<a href ="https://worldofmedia.github.io/justice/justice.html" ><img src="title/justice.png" width="46%" alt="My Image" > </a><br>
+<a href ="https://worldofmedia.github.io/work/work.html" > <img src="title/work.png" width="45%" alt="My Image" > </a><br>
+<a href ="https://worldofmedia.github.io/right/right.html" > <img src="title/right.png" width="45%" alt="My Image" > </a><br>
+</div>
+
+
+<p>
+<!-- <button id = btnsub> 논조별 보기 </button> -->
+
+</div>
+
+<div class="main">
+ <br>
+  <p id=chosun>
+
+  조선일보&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;중앙일보&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;동아일보&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;경향신문&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;한겨레</p>
+    <br> <br> <br> <br>
+    <p id=image>
+           &emsp;<img src="bubble/chosun-work.png" width="2.9%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/joong-work.png" width="6%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/dong-work.png" width="1.7%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/khan-work.png" width="7%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/hani-work.png" width="7%" alt="My Image" >
+
+  <br> 
+  <br>
+  <br>
+ <br> <br> <br> <br>
+
+ 
+ <br>
+  <p id=chosun>한국일보&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;서울신문&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;KBS&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MBC&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SBS</p></p>
+<br><br><br><br>
+      <p id=image>
+           <img src="bubble/hankook-work.png" width="6%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/seoul-work.png" width="7%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/kbs-work.png" width="9%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/mbc-work.png" width="3%" alt="My Image" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <img src="bubble/sbs-work.png" width="3%" alt="My Image" >
+
+  
+
+ 
+
+</div>
+ 
+
+
+
+ </script>  
+
+</body>
+</html> 
